@@ -36,7 +36,7 @@ for i in range(l):
     bz_temp.append(dat)
 bz_approx = bz_temp / np.sum(bz_temp, axis=0)
 print("Approx")
-print_countries(bz_approx*100)
+print_countries(bz_approx)
 
 #######PLOT OF WITHOUT and WITHOUT ASSOCIATION MATRIX#######
 # pc.plot_new_vs_old(bz_exact[:,0], bz_exact[:,1], weight_x, xlabel = 'weight')
